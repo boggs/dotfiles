@@ -1,4 +1,0 @@
-[ -z "$PS1" ] && return
-function cd {
-    builtin cd "$@" && ls -AF
-    }
